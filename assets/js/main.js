@@ -6,6 +6,8 @@ $('#slickProductCarousel').slick({
     nextArrow: $('.next'),
     centerMode: true,
     centerPadding: '100px',
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
         {
             breakpoint: 1200,
