@@ -27,7 +27,7 @@ $('#slickProductCarousel').slick({
             breakpoint: 600,
             settings: {
                 slidesToShow: 1,
-                centerPadding: '40px',
+                centerPadding: '37px',
             }
         }
     ]
