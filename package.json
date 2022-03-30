@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "supernova_hometask",
+  "version": "1.0.0",
+  "description": "Supernova Home Task",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w assets/scss/index.scss -o assets/css --output-style compressed"
+  },
+  "keywords": [],
+  "author": "Luke Truong",
+  "license": "ISC",
+  "dependencies": {
+    "liquidjs": "^9.36.0",
+    "node-sass": "^7.0.1"
+  }
+}
