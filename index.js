@@ -31,6 +31,7 @@ const ctx = {
             comparePrice: '€49.80',
             rate: 5,
             numberRate: 91,
+            isNew:true,
             image: './assets/img/product1.jpg'
         },
         {

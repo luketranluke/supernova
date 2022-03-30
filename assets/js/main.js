@@ -1,23 +1,32 @@
-$('#productCarousel').on('slide.bs.carousel', function (e) {
-    var $e = $(e.relatedTarget);
-    var idx = $e.index();
-    var itemsPerSlide = 5;
-    var totalItems = $('.carousel-item').length;
-    if (idx >= totalItems - (itemsPerSlide - 1)) {
-        var it = itemsPerSlide - (totalItems - idx);
-        for (var i = 0; i < it; i++) {
-            if (e.direction == "left") {
-                $('.carousel-item').eq(i).appendTo('.carousel-inner');
+$('#slickProductCarousel').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    infinite: true,
+    prevArrow: $('.prev'),
+    nextArrow: $('.next'),
+    centerMode: true,
+    centerPadding: '100px',
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+                centerPadding: '60px',
             }
-            else {
-                $('.carousel-item').eq(0).appendTo('.carousel-inner');
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                centerPadding: '40px',
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '40px',
             }
         }
-    }
-});
-
-$('#productCarousel').bind('mousewheel', function (e) {
-    if (e.originalEvent.wheelDelta / 120 > 0) {
-        $(this).carousel('next');
-    }
+    ]
 })
