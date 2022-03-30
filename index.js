@@ -12,14 +12,14 @@ const ctx = {
     products: [
         {
             title: 'Shapoo Bali Suger Hydrating',
-            price: '€67',
+            price: '€67.00',
             rate: 5,
             numberRate: 72,
             image: './assets/img/product2.jpg'
         },
         {
             title: 'Sunny Honey Bali Bronzing Foam',
-            price: '€31.9',
+            price: '€31.90',
             rate: 5,
             numberRate: 1569,
             image: './assets/img/product3.jpg',
@@ -27,30 +27,30 @@ const ctx = {
         },
         {
             title: 'Super Hydrating Shapoo & Conditioner Set',
-            price: '€38',
-            comparePrice: '€49.8',
+            price: '€38.00',
+            comparePrice: '€49.80',
             rate: 5,
             numberRate: 91,
             image: './assets/img/product1.jpg'
         },
         {
             title: 'Bronzing Face Drops',
-            price: '€26.9',
+            price: '€26.90',
             rate: 5,
-            numberRate: '€406',
+            numberRate: 406,
             image: './assets/img/product4.jpg'
         },
         {
             title: 'Like A Woney Bali Bronzing Foam',
-            price: '99',
+            price: '€99.00',
             rate: 5,
             numberRate: 127,
             image: './assets/img/product5.jpg'
         },
         {
             title: 'Lorem ipsum dolor sit amet',
-            price: '€31.9',
-            comparePrice: '€40',
+            price: '€31.90',
+            comparePrice: '€40.00',
             rate: 5,
             numberRate: 8471,
             image: './assets/img/product6.jpg'
